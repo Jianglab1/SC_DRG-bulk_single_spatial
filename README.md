@@ -1,0 +1,2 @@
+# SC_DRG-bulk_single_spatial
+Codes for integrating spatial transcriptomics and single-nucleus RNA-Sequencing uncovering neuropathic pain-associated molecular pathological characteristics in the mouse spinal cord. The raw sequence data of the spatial transcriptomics sequencing, snRNA‐seq, and bulk RNA-seq have been deposited in the Genome Sequence Archive at National Genomics Data Center China, National Center for Bioinformation / Beijing Institute of Genomics, Chinese Academy of Sciences (GSA: CRA011548) that are publicly accessible at https://ngdc.cncb.ac.cn/gsa. 
