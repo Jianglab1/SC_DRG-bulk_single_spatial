@@ -118,18 +118,18 @@ tsneplot2
 ggsave("tsne_sham_num.pdf",tsneplot2,width = 25, height = 15, units = "cm")
 
 sham <- SetIdent(sham, value = sham@meta.data$seurat_clusters)
-tsneplot2<-TSNEPlot(sham,label = TRUE, pt.size = 0.5,repel=T) #label去掉就没有字了
+tsneplot2<-TSNEPlot(sham,label = TRUE, pt.size = 0.5,repel=T) 
 tsneplot2
 ggsave("tsne_sham.pdf",tsneplot2,width = 25, height = 15, units = "cm")
 
 #SNI
 SNI <- SetIdent(SNI, value = SNI@meta.data$SCT_snn_res.1.5)
-tsneplot2<-TSNEPlot(SNI,label = TRUE, pt.size = 0.5,repel=T) #label去掉就没有字了
+tsneplot2<-TSNEPlot(SNI,label = TRUE, pt.size = 0.5,repel=T) 
 tsneplot2
 ggsave("tsne_SNI_num.pdf",tsneplot2,width = 25, height = 15, units = "cm")
 
 SNI <- SetIdent(SNI, value = SNI@meta.data$seurat_clusters)
-tsneplot2<-TSNEPlot(SNI,label = TRUE, pt.size = 0.5,repel=T) #label去掉就没有字了
+tsneplot2<-TSNEPlot(SNI,label = TRUE, pt.size = 0.5,repel=T) 
 tsneplot2
 ggsave("tsne_SNI.pdf",tsneplot2,width = 25, height = 15, units = "cm")
 
